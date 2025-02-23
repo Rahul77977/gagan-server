@@ -1,7 +1,7 @@
 const User = require("../models/User");
 const Order = require("../models/orderModel");
 // Ensure you import your product model if needed for counts
-const productmodel = require("../models/productModel");
+const productmodel = require("../models/productmodel.js");
 
 // Google authentication controller
 const googleAuth = async (req, res) => {
